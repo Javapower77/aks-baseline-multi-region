@@ -77,7 +77,7 @@
         }
     },
     "variables": {
-        "logAnalyticsWorkspaceName": "[concat('la-', variables('subRgUniqueString'))]",
+        "logAnalyticsWorkspaceName": "[concat('la-', variables('subRgUniqueString'))]"
      },
     "resources": [
         {
