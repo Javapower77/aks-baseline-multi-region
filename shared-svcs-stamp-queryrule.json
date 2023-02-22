@@ -77,16 +77,8 @@
         }
     },
     "variables": {
-        "subRgUniqueString": "[uniqueString('aks',subscription().subscriptionId, resourceGroup().id)]",
-
         "logAnalyticsWorkspaceName": "[concat('la-', variables('subRgUniqueString'))]",
-        "defaultAcrName": "[concat('acraks', variables('subRgUniqueString'))]",
-
-
-        "frontDoorName": "[concat('bicycle', variables('subRgUniqueString'))]",
-        "frontDoorPolicyName": "[concat('policyfd', variables('subRgUniqueString'))]",
-        "fwPoliciesBaseName": "fw-policies-base"
-    },
+     },
     "resources": [
         {
             "name": "PodFailedScheduledQuery",
