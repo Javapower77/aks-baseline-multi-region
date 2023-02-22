@@ -134,39 +134,5 @@
                 }
             }
         }
-    ],
-    "outputs": {
-        "logAnalyticsWorkspaceId": {
-            "type": "string",
-            "value": "[resourceId('Microsoft.OperationalInsights/workspaces', variables('logAnalyticsWorkspaceName'))]"
-        },
-        "containerRegistryId": {
-            "type": "string",
-            "value": "[resourceId('Microsoft.ContainerRegistry/registries', variables('defaultAcrName'))]"
-        },
-        "containerRegistryName": {
-            "type": "string",
-            "value": "[variables('defaultAcrName')]"
-        },
-        "fqdn": {
-            "type": "string",
-            "value": "[concat(variables('frontDoorName'), '.azurefd.net')]"
-        },
-        "frontDoorName": {
-            "type": "string",
-            "value": "[variables('frontDoorName')]"
-        },
-        "frontDoorBackendPoolName": {
-            "type": "string",
-            "value": "MultiClusterBackendPool"
-        },
-        "baseFirewallPoliciesId": {
-            "type": "string",
-            "value": "[resourceId('Microsoft.Network/firewallPolicies', variables('fwPoliciesBaseName'))]"
-        },
-        "githubFederatedIdentityClientId": {
-            "type": "string",
-            "value": "[reference(resourceId('Microsoft.ManagedIdentity/userAssignedIdentities', 'ghActionFederatedIdentity')).clientId]"
-        }
-    }
+    ]
 }
