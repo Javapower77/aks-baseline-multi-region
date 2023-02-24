@@ -23,7 +23,7 @@ on:
       - '.github/workflows/aks-deploy.yaml'
     branches: [ main ]
 env:
-  DEPLOY_REGION1: 'true'
+  DEPLOY_REGION1: 'false'
   DEPLOY_REGION2: 'true'
 permissions:
   id-token: write
