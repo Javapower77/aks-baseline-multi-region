@@ -6,28 +6,28 @@
       "value": "centralus"
     },
     "targetVnetResourceId": {
-      "value": "<cluster-spoke-vnet-resource-id>"
+      "value": "/subscriptions/d46cc94c-534f-4f4b-84d1-6d3728dbb30f/resourceGroups/rg-enterprise-networking-spokes/providers/Microsoft.Network/virtualNetworks/vnet-hub-spoke-BU0001A0042-04"
     },
     "appInstanceId": {
       "value": "04"
     },
     "clusterAdminAadGroupObjectId": {
-      "value": "<azure-ad-aks-admin-group-object-id>"
+      "value": "8e6c70b7-8557-41ad-b498-11039fe05af"
     },
     "k8sControlPlaneAuthorizationTenantId": {
-      "value": "<tenant-id-with-user-admin-permissions>"
+      "value": "31d7c510-2e1a-4b74-b0fe-8996a7a23a4d"
     },
     "clusterInternalLoadBalancerIpAddress": {
       "value": "10.244.4.4"
     },
     "logAnalyticsWorkspaceId": {
-      "value": "<log-analytics-workspace-id>"
+      "value": "/subscriptions/d46cc94c-534f-4f4b-84d1-6d3728dbb30f/resourceGroups/rg-bu0001a0042-shared/providers/Microsoft.OperationalInsights/workspaces/la-tjcs4weenirbg"
     },
     "containerRegistryId": {
-      "value": "<container-registry-id>"
+      "value": "/subscriptions/d46cc94c-534f-4f4b-84d1-6d3728dbb30f/resourceGroups/rg-bu0001a0042-shared/providers/Microsoft.ContainerRegistry/registries/acrakstjcs4weenirbg"
     },
     "gitOpsBootstrappingRepoHttpsUrl": {
-      "value": "https://github.com/<your-github-org>/aks-baseline-multi-region"
+      "value": "https://github.com/Javapower77/aks-baseline-multi-region"
     },
     "gitOpsBootstrappingRepoBranch": {
       "value": "main"
