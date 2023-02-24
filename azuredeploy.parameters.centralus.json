@@ -12,7 +12,7 @@
       "value": "04"
     },
     "clusterAdminAadGroupObjectId": {
-      "value": "8e6c70b7-8557-41ad-b498-11039fe05af"
+      "value": "8e6c70b7-8557-41ad-b498-11039fe05af7"
     },
     "k8sControlPlaneAuthorizationTenantId": {
       "value": "31d7c510-2e1a-4b74-b0fe-8996a7a23a4d"
